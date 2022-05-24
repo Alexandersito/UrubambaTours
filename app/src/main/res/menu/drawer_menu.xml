@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/casa_icono"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/nav_top"
+            android:title="Top"
+            android:icon="@drawable/top_icono"
+            />
+        <item
+            android:id="@+id/nav_especiales"
+            android:title="Especiales"
+            android:icon="@drawable/especiales_icono"
+            />
+        <item
+            android:id="@+id/nav_carrito"
+            android:title="Carrito de compras"
+            android:icon="@drawable/carrito_icono"
+            />
+        <item
+            android:id="@+id/nav_nosotros"
+            android:title="Nosotros"
+            android:icon="@drawable/nosotros_icono"
+            />
+        <item
+            android:id="@+id/nav_salir"
+            android:title="Salir"
+            android:icon="@drawable/salir_icono"
+            />
+    </group>
+
+</menu>
